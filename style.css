@@ -1,0 +1,119 @@
+		body{
+			margin: 0;
+			padding:0;
+			height: 100vh;
+		}
+		#particles-js{
+			height: 100%;
+			width: 100%;
+			background: #262626;
+			z-index: -10;
+    		top: 0;
+    		left: 0
+    		position: absolute;
+	    		
+		}
+
+		.inputBox{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 350px;
+			height: 420px;
+			padding: 80px 50px;
+			box-sizing: border-box;
+			background: rgba(0,0,0,.2);
+		}
+		.something{
+			z-index: 1;
+	
+		}
+
+		.displayed {
+	 		 width: 125px;
+	 		 height: 140px;
+	 		 overflow: hidden;
+	 		 position: absolute;
+		     top: -10%;
+		     left: 30%;
+		     opacity: 1;
+		    	
+		 }
+		 .display{
+		 	 position: absolute;
+		     top: 40%;
+		     left: 45%;
+		     margin-top: -250px; 
+		     margin-left: -250px;	
+		 }
+
+		 .inputBox p{
+		 	margin:0;
+		 	padding: 10px;
+		 	color: white;
+		 	font-family: Sofia;
+		}
+
+		.inputBox input{
+			width: 100%;
+			margin-bottom: 20px;
+		 }
+
+		.inputBox input[type="number"],
+		.inputBox input[type="text"]
+		{
+			border:none;
+			border-bottom: 1px solid grey;
+		 	background:transparent;
+		 	outline: none;
+		 	height: 40px;
+		 	color: white;
+		 	font-family: Times New Roman;
+		 	font-size:15px; 
+
+		}
+
+		.btn
+		{
+			border:none;
+			background:#D3D3D3;
+		 	outline: none;
+		 	height: 40px;
+		 	color: black;
+		 	font-family: Sofia;
+		 	font-size:15px; 
+		 	cursor: pointer;
+		 	border-radius: 10px;
+
+		}	
+		.inputBox input[type="submit"]:hover{
+			background: #808080;
+			color: white;
+		}
+
+		.end{
+			position: absolute;
+			color: grey;
+			font-family: Sofia;
+			top: 93%;
+			left: 75%;
+		}			
+
+		.ol{
+			position: absolute;
+			color: white;
+			font-family: Times New Roman;
+			font-size: 20px;
+		}
+
+		.buton{
+			position: absolute;
+			left: 50%;
+		}
+
+		.bto{
+			position: absolute;
+			top: 92%;
+			left: 100%;
+		}
